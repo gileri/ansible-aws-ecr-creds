@@ -1,6 +1,7 @@
 ---
 image_name: pottava/amazon-ecr-credential-helper
 image_version: latest
+image_digest: sha256:ea10ac4e69b569e79664912f19559c482ce264b7bbbb17a0cab4392a13eb1a29
 aws_creds_type: instance
 aws_directory: $HOME/.aws
 docker_directory: $HOME/.docker

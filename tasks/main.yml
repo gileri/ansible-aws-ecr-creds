@@ -1,5 +1,9 @@
 ---
 
+- name: Pull docker image
+  docker_image:
+    name: "{{image_name}}@{{ image_digest }}"
+
 - name: Ensure AWS directory
   file:
     path: "{{ aws_directory }}"

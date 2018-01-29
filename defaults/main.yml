@@ -4,3 +4,4 @@ image_version: latest
 aws_creds_type: instance
 aws_directory: $HOME/.aws
 docker_directory: $HOME/.docker
+bin_directory: /usr/local/bin
